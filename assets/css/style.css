@@ -2,9 +2,14 @@ body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
-
+.oculto{
+    display: none;
+}
 .bgFuerte{
     background: #660066;
+}
+.bgFuerteSuavisado{
+    background: #775977;
 }
 .textoBlanco{
     color: white!important;

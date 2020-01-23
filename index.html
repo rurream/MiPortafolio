@@ -31,10 +31,10 @@
 
 </head>
 
-<body>
+<body >
 
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-sm navbar-light bgFuerte textoBlanco fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-light bgFuerte textoBlanco fixed-top" id="miNav">
         <div class="container-fluid textoBlanco">
             <a class="navbar-brand" href="#"><span class="font_lobster textoBlanco textBold">RUM</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -45,26 +45,32 @@
                 <!-- Aqui se debieran declarar los items del MENU -->
                 <ul class="navbar-nav mr-auto ml-auto ">
                     <li class="nav-item  ">
-                        <a class="nav-link  textoBlanco textLigero" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link  textoBlanco textLigero" href="#encabezado">Sobre mí <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link textoBlanco textLigero" href="#">Recetas</a>
+                        <a class="nav-link textoBlanco textLigero" href="#experiencia">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  textoBlanco textLigero" href="#">Nosotros </a>
+                        <a class="nav-link  textoBlanco textLigero" href="#trabajos">Trabajos</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link  textoBlanco textLigero" href="#">Contacto </a>
+                        <a class="nav-link  textoBlanco textLigero" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
+           
         </div>
     </nav>
+    <!-- <hr> -->
+    <!-- <div class="container-fluid" id="separadorNav" >
+        <hr class="bg-success">
+        xx
+    </div> -->
 
 
 
     <!-- Encabezado -->
-    <header class="textoBlanco">
+    <header class="textoBlanco" id="encabezado">
         <div class="imgFondo">
             <h2>YO SOY</h1>
                 <h1 class="textBold">Rodrigo Urrea Méndez
@@ -73,7 +79,7 @@
     </header>
 
     <!-- Seccion reyeno -->
-    <section class="container py-5">
+    <section class="container py-5" id="descripGeneral">
         <div class="container">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita vitae officiis sit sunt quidem nobis? Delectus quo sed repellat reiciendis tempore. At labore ratione consectetur aut blanditiis magnam aliquam repellendus!</p>
         </div>
@@ -105,7 +111,7 @@
 
 
     <!-- Mi Experiencia -->
-    <section class="container-fluid my-5 py-4">
+    <section class="container-fluid my-5 py-4" id="experiencia">
 
         <div class="container ">
             <h2 class="textBold ">Mi Experiencia</h2>
@@ -150,7 +156,7 @@
 
 
     <!-- Mis Ultimos Trabajos -->
-    <section class="container-fluid bgFuerte">
+    <section class="container-fluid bgFuerte" id="trabajos">
 
 
         <h2 class="textoBlanco pt-5">MIS ÚLTIMOS TRABAJOS</h2>
@@ -187,7 +193,7 @@
 
 
     <!-- Contacto -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="contacto">
         <div class="py-5">
             <h2 class="textGris textBold textGris">CONTACTO</h2>
 
