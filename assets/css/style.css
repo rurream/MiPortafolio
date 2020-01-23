@@ -1,0 +1,61 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+  }
+
+  .bgFuerte{
+      background: #660066;
+  }
+.textoBlanco{
+    color: white!important;
+}
+/* .fondoBlanco{
+    background: white;
+} */
+
+.imgFondo{
+    width: 100%;
+    padding-top: 6.25rem;
+    padding-bottom: 3.125rem;
+    /* padding: 6.25rem 3.125rem; */
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgFondo h2{
+    padding-top: 10rem;
+}
+.imgFondo h1{
+    padding-top: 2rem;
+    text-decoration: overline;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.separador1{
+    background: black;
+    height: 0.05rem;
+    width: 10%;
+}
+
+.textoColorFuerte{
+    color:  #660066;
+}
+
+.imgMisTrabajos{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 80%;
+    height: 13rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fondoBlanco{
+    background: white;
+}
+.textGris{
+    color: #373A3C;
+}
+
+
+
+
