@@ -12,6 +12,7 @@
 
     <!-- GoogleFont -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
 
 
     <!-- Iconos-Imágenes de FontAwesome -->
@@ -35,7 +36,7 @@
     <!-- Barra de navegacion -->
     <nav class="navbar navbar-expand-sm navbar-light bgFuerte textoBlanco fixed-top">
         <div class="container-fluid textoBlanco">
-            <a class="navbar-brand" href="#"><span class="font_lobster textoBlanco">RUM</span></a>
+            <a class="navbar-brand" href="#"><span class="font_lobster textoBlanco textBold">RUM</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -44,16 +45,16 @@
                 <!-- Aqui se debieran declarar los items del MENU -->
                 <ul class="navbar-nav mr-auto ml-auto ">
                     <li class="nav-item  ">
-                        <a class="nav-link  textoBlanco" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link  textoBlanco textLigero" href="#">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link textoBlanco" href="#">Recetas</a>
+                        <a class="nav-link textoBlanco textLigero" href="#">Recetas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link  textoBlanco" href="#">Nosotros </a>
+                        <a class="nav-link  textoBlanco textLigero" href="#">Nosotros </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link  textoBlanco" href="#">Contacto </a>
+                        <a class="nav-link  textoBlanco textLigero" href="#">Contacto </a>
                     </li>
                 </ul>
             </div>
@@ -66,14 +67,17 @@
     <header class="textoBlanco">
         <div class="imgFondo">
             <h2>YO SOY</h1>
-                <h1>Rodrigo Urrea Méndez
+                <h1 class="textBold">Rodrigo Urrea Méndez
             </h2>
         </div>
     </header>
 
     <!-- Seccion reyeno -->
-    <section class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita vitae officiis sit sunt quidem nobis? Delectus quo sed repellat reiciendis tempore. At labore ratione consectetur aut blanditiis magnam aliquam repellendus!</p>
+    <section class="container py-5">
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita vitae officiis sit sunt quidem nobis? Delectus quo sed repellat reiciendis tempore. At labore ratione consectetur aut blanditiis magnam aliquam repellendus!</p>
+        </div>
+        
         <hr class="separador1">
     </section>
 
@@ -101,59 +105,46 @@
 
 
     <!-- Mi Experiencia -->
-    <section class="container-fluid">
-        <h2>Mi Experiencia</h2>
+    <section class="container-fluid my-5 py-4">
+
+        <div class="container ">
+            <h2 class="textBold ">Mi Experiencia</h2>
         <hr class="separador1">
         
-
-
-
         <div class="row">
             <div class="col-md-4">
               <i class="fas fa-flask fa-3x my-3 textoColorFuerte"></i>
-              <h3 my-3>Fotógrafa de comida</h3>
-              <p my-3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+              <h3 class="my-3" >Laboratorio de Investigación</h3>
+              <p class="mx-3" >Desarrollo investigación básica en el área de biología celular y molecular, en la facultad de ciencias biológicas de la Pontificia Universidad Católica de Chile.</p>
       
             </div>
+
             <div class="col-md-4">
-              <i class="fas fa-java fa-3x my-3 textoColorFuerte"></i>
-              <h3 my-3>Crítica culinaria</h3>
-              <p my-3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
-      
-            </div>
+                <i class="fas fa-desktop fa-3x my-3 textoColorFuerte"></i>
+                <h3 class="my-3">Soporte Computacional</h3>
+                <p class="mx-3">Desarrollo de actividades de soporte computacional en redes, servidores y equipos de escritorio.</p>
+              </div>
+
             <div class="col-md-4">
-              <i class="fas fa-desktop fa-3x my-3 textoColorFuerte"></i>
-              <h3 my-3>Bloggera de viajes</h3>
-              <p my-3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.</p>
+              <i class="fab fa-java  fa-3x my-3 textoColorFuerte"></i>
+              <h3 class="my-3">Java - Android</h3>
+              <p class="mx-3">Desarrollo de aplicaciones moviles para Android. </p>
       
             </div>
+            
             <div class="col-md-4">
                 <i class="fas fa-universal-access fa-3x my-3 textoColorFuerte"></i>
-                <h3 my-3>Bloggera de viajes</h3>
-                <p my-3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua.</p>
+                <h3 class="my-3">Visual Basic</h3>
+                <p class="mx-3">Desarrollo de aplicaciones de escritorio (ambiente Windows) en lenguaje Visual Basic (VB6).</p>
         
               </div>
               <div class="col-md-4">
                 <i class="fas fa-database fa-3x my-3 textoColorFuerte"></i>
-                <h3 my-3>Bloggera de viajes</h3>
-                <p my-3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua.</p>
-        
+                <h3 class="my-3">Bases de Datos</h3>
+                <p class="mx-3">Desarrollo e implementación de bases de datos en motores MySql y SQL Server.</p>
               </div>
         </div>
-
-        <!-- <div>
-            <i class="fas fa-flask"></i>
-            <i class="fab fa-java"></i>
-            <i class="fas fa-desktop"></i>
-            <i class="fas fa-universal-access"></i>
-            <i class="fas fa-database"></i>
-        </div> -->
-
+        </div>
     </section>
 
 
@@ -195,18 +186,21 @@
 
 
 
-
+    <!-- Contacto -->
     <section class="container-fluid">
         <div class="py-5">
-            <h2 class="textGris">CONTACTO</h2>
+            <h2 class="textGris textBold textGris">CONTACTO</h2>
 
 
             <div class="py-5">
 
                 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScwxR4X3L9c7N1PIcuiYKdY6YNxEhz264rkbyK0jabNJ2qqVA/viewform?embedded=true" width="640" height="802" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe> -->
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwxR4X3L9c7N1PIcuiYKdY6YNxEhz264rkbyK0jabNJ2qqVA/viewform?usp=sf_link"
-                class="btn btn-secondary">Comenzar</a>
+                <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLScwxR4X3L9c7N1PIcuiYKdY6YNxEhz264rkbyK0jabNJ2qqVA/viewform?usp=sf_link"
+                class="btn btn-secondary">Comenzar</a> -->
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfugBz2yIf8X14AYBuT81qkNAIwOv0XcJXQcSho9HqHAPK8Ww/viewform?usp=sf_link"
+                class="btn btn-secondary textContacto textGris px-5">Comenzar</a>
 
             </div>
 
@@ -224,8 +218,21 @@
 
 
 
+    <!-- Pie de Pagina -->
+    <footer class="container-fluid bgFuerte">
+        <div class="textoBlanco py-5 text-left">
+            <div class="divPie">
+                <h3 class="textBold">RODRIGO</h3>
+            </div>
+            <div class="divPie ">
+                <i class="fab fa-github-square fa-3x mx-2"></i>
+                <i class="fab fa-linkedin fa-3x mx-2"></i>
+                <i class="fab fa-twitter-square fa-3x mx-2"></i>
+                <i class="fab fa-facebook-square fa-3x mx-2"></i>
+            </div>
+        </div>
 
-    
+    </footer>
 
 
 

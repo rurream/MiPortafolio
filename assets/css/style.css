@@ -1,13 +1,19 @@
 body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
-  }
+}
 
-  .bgFuerte{
-      background: #660066;
-  }
+.bgFuerte{
+    background: #660066;
+}
 .textoBlanco{
     color: white!important;
+}
+.textLigero{
+    font-weight: lighter;
+}
+.textBold{
+    font-weight: bolder;
 }
 /* .fondoBlanco{
     background: white;
@@ -45,7 +51,8 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
     width: 80%;
-    height: 13rem;
+    /* width: 15rem; */
+    /* height: 13rem; */
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -55,6 +62,16 @@ body{
 .textGris{
     color: #373A3C;
 }
+.divPie{
+    text-align: left;
+    display: inline-block;
+    margin-left: 300px;
+}
+.textContacto{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 
 
