@@ -30,7 +30,7 @@ body{
 }
 
 .carousel-indicators {
-    top: 235px;
+   
     }
     .carousel-indicators li {
     width: 10px;
@@ -43,28 +43,31 @@ body{
     }
 
 
-.imgFondo{
-    width: 100%;
-    padding-top: 6.25rem;
-    padding-bottom: 3.125rem;
-    /* padding: 6.25rem 3.125rem; */
-    background-image: url('../img/bg-header.jpg');
-    background-repeat: no-repeat;
-  background-size: cover;
-}
-.imgFondo h2{
-    padding-top: 10rem;
-}
-.imgFondo h1{
-    padding-top: 2rem;
-    text-decoration: overline;
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
+    .imgFondo{
+        width: 100%;
+        height: 30rem;
+        background-image: url('../img/rds.jpg');
+        background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+    .imgFondo h2{
+        padding-top: 1%;
+    }
+    .imgFondo h1{
+        padding-top: 1%;
+        text-decoration: overline;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+
+
+
 .separador1{
     background: black;
-    height: 0.05rem;
-    width: 10%;
+    height: 0.1rem;
+    width: 30%;
 }
 
 .textoColorFuerte{
@@ -97,7 +100,70 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+@media(max-width:576x){
 
-
+    .imgFondo{
+        width: 100%;
+        height: 30rem;
+        background-image: url('../img/rds.jpg');
+        background-repeat: no-repeat;
+      background-size: contain;
+    }
+  
+    .imgFondo h2{
+        padding-top: 1%;
+    }
+    .imgFondo h1{
+        /* padding-top: 2rem; */
+        padding-top: 1%;
+        text-decoration: overline;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+  }
+  @media(max-width:767x){
+    .imgFondo{
+        width: 100%;
+    height: 30rem;
+    padding-top: 10%;
+    padding-left: 5%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imgFondo h2{
+        padding-top: 20%;
+    }
+    .imgFondo h1{
+        /* padding-top: 2rem; */
+        padding-top: 2%;
+        text-decoration: overline;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+  }
+@media(min-width:768px){
+  
+    .imgFondo{
+        width: 100%;
+    height: 30rem;
+    padding-top: 10%;
+    padding-left: 5%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .imgFondo h2{
+        padding-top: 20%;
+    }
+    .imgFondo h1{
+        /* padding-top: 2rem; */
+        padding-top: 2%;
+        text-decoration: overline;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .separador1{
+        width: 10%;
+    }
+  }
 
 
