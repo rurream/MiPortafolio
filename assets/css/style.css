@@ -1,6 +1,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    margin-top: 3.2rem;
 }
 .oculto{
     display: none;
@@ -20,12 +21,6 @@ body{
 .textBold{
     font-weight: bolder;
 }
-/* .fondoBlanco{
-    background: white;
-} */
-
-
-
 
 .barraMenu{
     width: 100%;
