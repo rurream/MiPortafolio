@@ -34,20 +34,30 @@ $(document).ready(function () {
     });
 
 
-});
 
 
-$(function () {
-    $("a.nav-link").click(function (event) {
-
-        if (this.hash !== "") {
-            event.preventDefault();
-            var gato = this.hash;
-            console.log($(gato).offset().top);
-            $(gato).offset().top
-            $('html, body').animate({
-                scrollTop: ($(gato).offset().top - 45)
-            }, 800);
-        }
+    $(function () {
+        $("a.nav-link").click(function (event) {
+    
+            if (this.hash !== "") {
+                event.preventDefault();
+                var gato = this.hash;
+                // console.log($(gato).offset().top);
+                $(gato).offset().top
+                $('html, body').animate({
+                    scrollTop: ($(gato).offset().top - 45)
+                }, 800);
+            }
+        });
     });
+
+
+
+
 });
+
+
+
+
+
+
