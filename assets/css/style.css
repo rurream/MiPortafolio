@@ -33,8 +33,7 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 
-.carousel-indicators {
-}
+
 .carousel-indicators li {
   width: 10px;
   height: 10px;
@@ -95,83 +94,26 @@ body {
 .textGris {
   color: #373a3c;
 }
-.divPie {
+
+.divRedSocial{
   text-align: left;
-  display: inline-block;
-  margin-left: 300px;
+}
+.iconRedSocial{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 .textContacto {
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-/* 
-@media (max-width: 576x) {
-  .imgFondo {
-    width: 100%;
-    height: 30rem;
-    background-image: url("../img/rds.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .imgFondo h2 {
-    padding-top: 1%;
-  }
-  .imgFondo h1 {
-    padding-top: 1%;
-    text-decoration: overline;
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-}
-@media (max-width: 767x) {
-  .imgFondo {
-    width: 100%;
-    height: 30rem;
-    padding-top: 10%;
-    padding-left: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .imgFondo h2 {
-    padding-top: 20%;
-  }
-  .imgFondo h1 {
-    padding-top: 2%;
-    text-decoration: overline;
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-}
-@media (min-width: 768px) {
-  .imgFondo {
-    width: 100%;
-    height: 30rem;
-    padding-top: 10%;
-    padding-left: 5%;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .imgFondo h2 {
-    padding-top: 20%;
-  }
-  .imgFondo h1 {
-    padding-top: 2%;
-    text-decoration: overline;
-    padding-left: 0rem;
-    padding-right: 0rem;
-  }
-  .separador1 {
-    width: 10%;
-  }
+/* @media (min-width: 768px) {
+ 
 } */
+
+
+
+
+
+
+
